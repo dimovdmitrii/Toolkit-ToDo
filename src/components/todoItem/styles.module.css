@@ -1,0 +1,26 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px 15px;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.todoItem > div {
+  display: flex;
+  gap: 8px;
+}
+.todoItem button {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 0.7;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.toggleCompleteBtn {
+  background-color: #007bfe;
+}
+.deleteBtn {
+  background-color: #db3545;
+}

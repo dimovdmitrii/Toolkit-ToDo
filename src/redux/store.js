@@ -3,5 +3,5 @@ import todoReducer from "./slices/todoSlice";
 import basketReducer from "./slices/basketSlice";
 
 export default configureStore({
-  reducer: { todoReducer, basketReducer },
+  reducer: { todo: todoReducer, basket: basketReducer },
 });
